@@ -12,9 +12,9 @@ Nhuan2 = 0
 NamNhuan1, NamNhuan2 = False, False
 
 while True:
-    days1 = int(input("Nhập ngày: ")) 
-    months1 = int(input("Nhập tháng: "))
-    years1 = int(input("Nhập năm: "))
+    days1 = int(input("Nhập ngày thứ 1: ")) 
+    months1 = int(input("Nhập tháng thứ 1: "))
+    years1 = int(input("Nhập năm thứ 1: "))
     if (years1 % 4 == 0 and years1 % 100 != 0) or years1 % 400 == 0:
         NamNhuan1 = True
     if (months1 > 12 or days1 > 31 or (months1 == 4 and days1>30) or (months1 == 6 and days1>30) or
@@ -22,9 +22,9 @@ while True:
         or (NamNhuan1 and months1 == 2 and days1>29)):
         print("Bạn đã nhập sai, xin hãy thử lại")
         continue
-    days2 = int(input("Nhập ngày: ")) 
-    months2 = int(input("Nhập tháng: "))
-    years2 = int(input("Nhập năm: "))
+    days2 = int(input("Nhập ngày thứ 2: ")) 
+    months2 = int(input("Nhập tháng thứ 2: "))
+    years2 = int(input("Nhập năm thứ 2: "))
     if (years2 % 4 == 0 and years2 % 100 != 0) or years2 % 400 == 0:
         NamNhuan2 = True
     if (months2 > 12 or days2 > 31 or (months2 == 4 and days2>30) or (months2 == 6 and days2>30) or
