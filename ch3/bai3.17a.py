@@ -8,7 +8,7 @@ Created on Mon Oct  5 12:02:21 2020
 
 n = int(input("nhap 1 so n : "))
 
-for i in range(1, int(n**0.5)+1):
+for i in range(1, n+1):
     if ((n % i == 0)):
         for j in range(2,i):
             if (i % j == 0):
