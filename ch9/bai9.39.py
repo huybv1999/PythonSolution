@@ -26,3 +26,4 @@ for i in range(1, a):
 for i in range(0,a):
     if (ld[i] == lmax):
         print(s[i+1-lmax:i+1])
+        break
